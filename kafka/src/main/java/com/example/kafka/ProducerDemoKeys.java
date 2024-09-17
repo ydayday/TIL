@@ -28,8 +28,8 @@ public class ProducerDemoKeys {
         for (int j = 0; j < 2; j++) {
             for (int i = 0; i < 10; i++) {
 
-                String topic = "demo_java";
-                String key = "id_" + i;
+                String topic = "demo_java3";
+                String key = "idx_" + i;
                 String value = "hello world" + i;
 
                 ProducerRecord<String, String> producerRecord = new ProducerRecord<>(topic, key, value);

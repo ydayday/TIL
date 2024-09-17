@@ -30,8 +30,8 @@ public class ConsumerDemo {
         log.info("I am a Kafka Consumer");
 
         // new group id
-        String groupId = "my-java-application";
-        String topic = "demo_java";
+        String groupId = "my-java-application-2";
+        String topic = "demo_java3";
 
         Properties properties = new Properties();
         properties.setProperty("bootstrap.servers", "127.0.0.1:9092");
