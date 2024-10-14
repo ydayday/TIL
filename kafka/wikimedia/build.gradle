@@ -25,6 +25,9 @@ dependencies {
     // https://mvnrepository.com/artifact/com.launchdarkly/okhttp-eventsource
     implementation group: 'com.launchdarkly', name: 'okhttp-eventsource', version: '2.6.0'
 
+    // 압축 라이브러리 (M1 mac 문제로 버전 변경)
+    implementation 'org.xerial.snappy:snappy-java:1.1.8.4'
+
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
